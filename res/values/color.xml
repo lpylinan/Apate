@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bottom_checked">#32bfca</color>
+    <color name="text_color_818181">#818181</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="cut_off_line">#dcdcdc</color>
+    <color name="cut_off_line_title">#dadada</color>
+    <color name="background_context">#f2f2f2</color>
+    <color name="backcolor">#f2f2f2</color>
+    <color name="trans_40">#66000000</color>
+    <color name="text_gray">#8a8a8a</color>
+    <color name="text_green">#32bfc9</color>
+    <color name="text_red">#e40011</color>
+    
+</resources>
