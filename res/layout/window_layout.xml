@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/map_window"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dd_dimen_20px"
+        android:paddingLeft="@dimen/dd_dimen_16px"
+        android:paddingRight="@dimen/dd_dimen_16px"
+        android:paddingTop="@dimen/dd_dimen_10px" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dd_dimen_16px"
+            android:layout_marginRight="@dimen/dd_dimen_16px"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="设置此位置为系统位置"
+                android:textColor="#bb000000"
+                android:textSize="@dimen/dd_dimen_30px"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/location_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dd_dimen_5px"
+                android:ellipsize="end"
+                android:maxWidth="@dimen/dd_dimen_408px"
+                android:singleLine="true"
+                android:textColor="#89000000"
+                android:textSize="@dimen/dd_dimen_30px"
+                android:text="正在获取当前位置……"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dd_dimen_1px" />
+
+</LinearLayout>

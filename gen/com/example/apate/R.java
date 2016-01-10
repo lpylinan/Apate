@@ -18,10 +18,11 @@ public final class R {
         public static final int cut_off_line=0x7f040004;
         public static final int cut_off_line_title=0x7f040005;
         public static final int text_color_818181=0x7f040001;
-        public static final int text_gray=0x7f040009;
-        public static final int text_green=0x7f04000a;
-        public static final int text_red=0x7f04000b;
+        public static final int text_gray=0x7f04000a;
+        public static final int text_green=0x7f04000b;
+        public static final int text_red=0x7f04000c;
         public static final int trans_40=0x7f040008;
+        public static final int trans_white_40=0x7f040009;
         public static final int white=0x7f040002;
     }
     public static final class dimen {
@@ -2039,41 +2040,58 @@ public final class R {
     public static final class drawable {
         public static final int back_image=0x7f020000;
         public static final int base_loading_new=0x7f020001;
-        public static final int corners_rectangle=0x7f020002;
-        public static final int ic_launcher=0x7f020003;
-        public static final int loading_1=0x7f020004;
-        public static final int loading_10=0x7f020005;
-        public static final int loading_11=0x7f020006;
-        public static final int loading_12=0x7f020007;
-        public static final int loading_13=0x7f020008;
-        public static final int loading_14=0x7f020009;
-        public static final int loading_15=0x7f02000a;
-        public static final int loading_16=0x7f02000b;
-        public static final int loading_2=0x7f02000c;
-        public static final int loading_3=0x7f02000d;
-        public static final int loading_4=0x7f02000e;
-        public static final int loading_5=0x7f02000f;
-        public static final int loading_6=0x7f020010;
-        public static final int loading_7=0x7f020011;
-        public static final int loading_8=0x7f020012;
-        public static final int loading_9=0x7f020013;
+        public static final int buttom_buttom_selector=0x7f020002;
+        public static final int corners_rectangle=0x7f020003;
+        public static final int ic_launcher=0x7f020004;
+        public static final int icon_end=0x7f020005;
+        public static final int icon_end_big=0x7f020006;
+        public static final int icon_gcoding=0x7f020007;
+        public static final int icon_path=0x7f020008;
+        public static final int icon_start=0x7f020009;
+        public static final int icon_start_big=0x7f02000a;
+        public static final int loading_1=0x7f02000b;
+        public static final int loading_10=0x7f02000c;
+        public static final int loading_11=0x7f02000d;
+        public static final int loading_12=0x7f02000e;
+        public static final int loading_13=0x7f02000f;
+        public static final int loading_14=0x7f020010;
+        public static final int loading_15=0x7f020011;
+        public static final int loading_16=0x7f020012;
+        public static final int loading_2=0x7f020013;
+        public static final int loading_3=0x7f020014;
+        public static final int loading_4=0x7f020015;
+        public static final int loading_5=0x7f020016;
+        public static final int loading_6=0x7f020017;
+        public static final int loading_7=0x7f020018;
+        public static final int loading_8=0x7f020019;
+        public static final int loading_9=0x7f02001a;
+        public static final int map_window=0x7f02001b;
     }
     public static final class id {
-        public static final int TextViewInfo=0x7f090007;
-        public static final int action_settings=0x7f090008;
-        public static final int back=0x7f090003;
-        public static final int back_image=0x7f090004;
-        public static final int base_extra_layout=0x7f090001;
-        public static final int base_loading=0x7f090002;
-        public static final int base_title=0x7f090005;
+        public static final int TextViewInfo=0x7f09000d;
+        public static final int action_settings=0x7f09000f;
+        public static final int back=0x7f090007;
+        public static final int back_image=0x7f090008;
+        public static final int base_extra_layout=0x7f090005;
+        public static final int base_loading=0x7f090006;
+        public static final int base_title=0x7f090009;
+        public static final int endButton=0x7f090002;
+        public static final int image=0x7f09000b;
+        public static final int location_name=0x7f09000e;
         public static final int map_layout=0x7f090000;
-        public static final int right_tv=0x7f090006;
+        public static final int pathButton=0x7f090003;
+        public static final int right_tv=0x7f09000a;
+        public static final int runButton=0x7f090004;
+        public static final int startButton=0x7f090001;
+        public static final int text=0x7f09000c;
     }
     public static final class layout {
         public static final int activity_main_map=0x7f030000;
         public static final int base_loading_layout=0x7f030001;
         public static final int base_title=0x7f030002;
-        public static final int toast_layout=0x7f030003;
+        public static final int buttom_button=0x7f030003;
+        public static final int toast_layout=0x7f030004;
+        public static final int window_layout=0x7f030005;
     }
     public static final class menu {
         public static final int main_map=0x7f080000;

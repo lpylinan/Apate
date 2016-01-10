@@ -33,6 +33,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
+        
+		<!-- 高德地图Key -->
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="1abe0ec41e84a12cfca331c7722c621e" />
     </application>
 
 </manifest>
