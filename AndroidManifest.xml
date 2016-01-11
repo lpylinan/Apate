@@ -8,6 +8,7 @@
         android:minSdkVersion="16"
         android:targetSdkVersion="16" />
     
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -36,9 +37,11 @@
         
         
 		<!-- 高德地图Key -->
+		<!-- 公司：  8fb29223389c35cd77065e53df660371 -->
+		<!-- 家：  1abe0ec41e84a12cfca331c7722c621e -->
         <meta-data
             android:name="com.amap.api.v2.apikey"
-            android:value="1abe0ec41e84a12cfca331c7722c621e" />
+            android:value="8fb29223389c35cd77065e53df660371" />
     </application>
 
 </manifest>
